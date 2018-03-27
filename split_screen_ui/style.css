@@ -1,0 +1,19 @@
+.container{
+    background: grey;
+    padding:5px;
+}
+.d{
+    width:50%;
+    height:100%;
+    padding: 5px;
+    background: lightskyblue;
+    border:none;
+}
+.p{
+    width:50%;
+    height:100%;
+    padding: 5px;
+    background: rgb(6, 204, 22);
+    border:none;
+    order: -1;
+}

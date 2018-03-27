@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* box-sizing: border-box; */
+}
+body{
+    background-color: darkorange;
+    /* align-content: center; */
+}
+.chatForm{
+    /* align-content: center; */
+    width: 400px;
+    min-width: 290px; 
+    height: 550px;
+    background-color:wheat;
+    /* border:black solid; */
+    padding:25px;
+    box-shadow: 0 3px #ccc;
+    margin:20px auto;
+    border-radius: 3px;
+    
+    
+    /* border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 60px; */
+}
+
+.chatlog{
+    display: flex; 
+    flex-flow: row wrap;
+    align-items: flex-start; 
+    padding:10px;
+    /* width: auto;
+    height: auto; */
+    /* background: turquoise; */
+    margin-bottom: 10px;
+
+}
+.chatBox{
+    padding:10px;
+    width: 100%;
+    height: 450px;
+    background: #fbfbfb;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+ .type{
+     /* display: flex; */
+    padding: 5px;
+    /* align-content: flex-end; */
+    /* margin-top: 80px;  */
+
+}  
+.ta{
+    background: #fbfbfb;
+    width:68%;
+    height:50px;
+    border-radius: 3px;
+    padding: 10px;
+    font-size:18px;
+    resize: none;
+    color: #333;
+}
+.chatlog .user{
+    width:50px;
+    height:50px;
+    background: #ccc;
+    border-radius: 50%
+}
+.chatlog .message{
+    width: 70%;
+    padding:15px;
+    margin:5px 10px 0;
+   
+    border-radius: 10px;
+    color:#fff;
+    font-size:  18px;
+
+}
+.friend .message{
+    background: turquoise;
+
+}
+.self .message{
+ background: greenyellow;
+ order:-1;
+
+}
+.ta :focus{
+    background: #fff;
+
+}
+.send{
+    background-color:cyan;
+    padding: 5px 10px;
+    font-size: 20px;
+    color:#fff;
+    border: none;
+    margin:0 10px;
+    border-radius: 3px;
+}
